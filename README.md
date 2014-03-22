@@ -7,9 +7,11 @@ This is a fast way to set a up a basic topology that consumes JSON tuples from a
 
 ---
    *dependencies:*
+
    * https://github.com/davidpr/storm-amqp-spout
    * https://github.com/davidpr/storm-json
    * https://github.com/davidpr/storm-rabbitmq/tree/master/storm-client-json-regression
+
 ---
 ##Usage
 
@@ -20,10 +22,11 @@ storm jar ./target/mongo-storm-fast-0.0.1-SNAPSHOT.jar org.mongodb.MongoTopology
 ```
 
    * Launch the client
- ```java
+
+```java
 mvn package
 java -cp ./target/storm-client-json-regression-1.0-SNAPSHOT.jar StormSenderJSON stormkey
- ```
+```
 
    * Check out the results
 ```java
