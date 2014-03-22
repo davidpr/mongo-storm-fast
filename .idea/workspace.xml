@@ -125,7 +125,27 @@
       <file leaf-file-name="MongoObjectGrabber.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jvm/org/mongodb/MongoObjectGrabber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+            <state line="6" column="22" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MongoBoltBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jvm/org/mongodb/bolt/MongoBoltBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="22" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="168" column="40" selection-start="6234" selection-end="6250" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,20 +154,11 @@
       <file leaf-file-name="MongoInsertBolt.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jvm/org/mongodb/bolt/MongoInsertBolt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="52" selection-start="2704" selection-end="2704" vertical-scroll-proportion="0.0">
+            <state line="106" column="41" selection-start="3737" selection-end="3753" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#668#675#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="474" selection-end="474" vertical-scroll-proportion="0.26046512">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -170,10 +181,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
+            <state line="9" column="6" selection-start="317" selection-end="317" vertical-scroll-proportion="0.25581396">
               <folding />
             </state>
           </provider>
@@ -183,15 +194,6 @@
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="8" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateQueryCreator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jvm/org/mongodb/UpdateQueryCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="1" selection-start="0" selection-end="243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -238,8 +240,8 @@
         <option value="$PROJECT_DIR$/src/jvm/org/mongodb/MongoTopology.java" />
         <option value="$PROJECT_DIR$/src/jvm/org/mongodb/bolt/MongoBoltBase.java" />
         <option value="$PROJECT_DIR$/src/jvm/org/mongodb/bolt/MongoInsertBolt.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -620,37 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/org/mongodb/MongoObjectGrabber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/org/mongodb/bolt/MongoBoltBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/org/mongodb/bolt/MongoBoltTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/org/mongodb/bolt/MongoInsertBolt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="52" selection-start="2704" selection-end="2704" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#668#675#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storm-mongo.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -672,16 +643,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/jvm/org/mongodb/MongoObjectGrabber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
+        <state line="6" column="22" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/org/mongodb/bolt/MongoBoltTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/org/mongodb/bolt/MongoInsertBolt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="41" selection-start="3737" selection-end="3753" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#668#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/org/mongodb/bolt/MongoBoltBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="474" selection-end="474" vertical-scroll-proportion="0.26046512">
+        <state line="168" column="40" selection-start="6234" selection-end="6250" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="317" selection-end="317" vertical-scroll-proportion="0.25581396">
           <folding />
         </state>
       </provider>

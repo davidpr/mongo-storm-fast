@@ -1,26 +1,28 @@
-# The Mongo Storm library
+# Fast Mongo Storm
 
-The Mongo Storm library let's you leverage MongoDB in your Storm toplogies. It includes two main components.
+This is a fast way to set a up a basic topology that consumes JSON tuples from a Java client.
 
-* A spout for the MongoDB oplog and any MongoDB capped collections, that lets you filter down documents to specific touples in case you want to lower the amount of data transmitted from your spout. Alternatively you can emit the entire document. It's threaded and non-blocking.
-* A insert/update bolt that lets you map a tuple either to  a new document or to an existing document in your MongoDB instance.
 
-## Capped Collection Spout Examples
+*The spout, imported from the dependency storm-amqp-spout, is able to cannect to a Rabbitmq queue
+*The bolt, MongoInsertBolt, uses the Java API to store docuemnts into a MongoDB collection.
 
+---
+##dependencies
+    * https://github.com/davidpr/storm-amqp-spout
+    * https://github.com/davidpr/storm-json
+
+---
+##Usage
+
+*Launch the toplogy
 ```java
-MongoCappedCollectionSpout(String url, String collectionName, DBObject query, MongoObjectGrabber mapper)
+
 ```
-The options are
-	
-	* url : the Mongodb connection url
-	* collectionName : the name of the capped colletion we wish to spout from
-	* query[optional] : a filtering query if we wish to only extract specific documents
-	* mapper[optional] : an optional mapper instance that maps the object to a tuple list
 
-### A simple capped collection Spout an object mapped to a custom tuple
-This simple example extracts the number of users from document in a capped collection as they arrive come in. Boilercode omited for brevities sake.
+*Launch the client
 
 
+*Check out the results
 
 
 
